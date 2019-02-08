@@ -377,7 +377,7 @@
       </section>
   	  <section class="page3">
         <div class="page_container">
-          <h1><a href="http://www.stmarysafc.com/" target="_blank">Soccer<br><small>St.Marys AFC</small></a></h1>
+          <h1><a href="http://localhost:8000/StMarysAFC.html" target="_blank">Soccer<br><small>St.Marys AFC</small></a></h1>
         </div>
       </section>
   	  <section class="page4">
