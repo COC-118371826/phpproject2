@@ -309,22 +309,22 @@
     }
     
     .tps-section:nth-child(1n+1) .tps-wrapper {
-      background: url(demo1.jpg) center center;
+      background: url(https://res-1.cloudinary.com/holiday-images/image/upload/q_auto:eco,f_auto,w_1600,h_900,c_lfill,q_auto:eco,f_auto/v1380073130/topflight/austria/country_images/austria3.jpg) center center;
       background-size: cover;
     }
     
     .tps-section:nth-child(2n+1) .tps-wrapper {
-      background:  url(demo2.jpg) center center;
+      background:  url(https://jonesinternational.co.uk/wp-content/uploads/2017/12/Disney-header.jpg) center center;
       background-size: cover;
     }
     
     .tps-section:nth-child(3n+1) .tps-wrapper {
-      background:  url(demo3.jpg) center center;
+      background:  url(http://sportlomo-userupload.s3.amazonaws.com/user_data/modules/contents/11031/featured_uYFTCwTc7YpuImwuuM2UHkOCIxQEYgjm.png) center center;
       background-size: cover;
     }
     
     .tps-section:nth-child(4n+1) .tps-wrapper {
-      background:  url(demo4.jpg) center center;
+      background:  url(https://www.workingmother.com/sites/workingmother.com/files/styles/1000_1x_/public/images/2018/05/smg_avengers.jpg?itok=dFsnCtrf&fc=50,50) center center;
       background-size: cover;
     }
     
@@ -355,20 +355,12 @@
         (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
       })();
       </script>
-      <!-- End AdPacks.com Ad Code -->
-      <div class="wrapper">	
-        <!-- AdPacks.com Zone Code -->
-        <div class="ads">
-        <div id="bsap_1291397" class="bsarocks bsap_f94cae21120e7fc7964819a7812eeffe"></div>
-        <a href="http://adpacks.com" id="bsap_aplink">via Ad Packs</a>
-        </div>
-        <!-- End AdPacks.com Zone Code -->
+   
   	  <div class="main">
 	    <div class="header">
-        <h1>Hobbies and Interests</h1>
-        <h2>Hobbies and Interests of Cillian O'Connor
-        BIS 1 STUDENT</h2>
-        <p class="credit">Created by <a href="http://www.thepetedesign.com">Cillian 0'Connor.</a>, Founder of <a href="http://www.travelistly.com" target="_blank">Travelistly</a> and <a href="http://www.bucketlistly.com" target="_blank">BucketListly</a></p>
+                <h1><u>Hobbies and Interests</u></h1>
+        <h2>Hobbies and Interests </h2>
+        <p class="credit">Created by <a href="https://www.linkedin.com/in/cillian-o-connor-612135167/">Cillian 0'Connor</a>, Student at <a href="https://www.ucc.ie/" target="_blank">UCC</a> </p>
         <div class="btns">
   
   	    </div>
@@ -385,36 +377,18 @@
       </section>
   	  <section class="page3">
         <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/travel-to-zhangjiajie-avatar-s-mountains-china-85798" target="_blank">Soccer<br><small>St.Marys AFC</small></a></h1>
+          <h1><a href="http://www.stmarysafc.com/" target="_blank">Soccer<br><small>St.Marys AFC</small></a></h1>
         </div>
       </section>
   	  <section class="page4">
         <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/ride-a-camel-93541" target="_blank">Ride a Camel in the Australian Outback<br><small>Completed on 17 Feb 2014</small></a></h1>
+          <h1><a href="http://www.bucketlistly.com/achievements/ride-a-camel-93541" target="_blank">Movies<br><small>Films</small></a></h1>
         </div>
       </section>
-  	  <section class="page5">
-        <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/visit-sydney-australia-95861" target="_blank">Travel to Sydney, Australia<br><small>Completed on 14 Feb 2014</small></a></h1>
-        </div>
-      </section>
-  	  <section class="page6">
-        <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/visit-uluru-ayers-rock-96722" target="_blank">Visit Uluru (Ayers Rock), Australia<br><small>Completed on 17 Feb 2014</small></a></h1>
-        </div>
-      </section>
-  	  <section class="page7">
-        <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/travel-to-zhangjiajie-avatar-s-mountains-china-85798" target="_blank">Travel to ZhangJiaJie (Avatar's Mountain) in China<br><small>Completed on 20 Jan 2014</small></a></h1>
-        </div>
-      </section>
-  	  <section class="page8">
-        <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/ride-a-camel-93541" target="_blank">Ride a Camel in the Australian Outback<br><small>Completed on 17 Feb 2014</small></a></h1>
-        </div>
+  	
       </section>
     </div>
-    <a class="back" href="http://www.thepetedesign.com/#design">Back to The Pete Design</a>
+    <a class="back" href="http://localhost:8000/index.php">Back to Index</a>
     <a href="https://github.com/peachananr/tiltedpage-scroll"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
   </div>
   
@@ -427,3 +401,4 @@
   </script>
 </body>
 </html>
+

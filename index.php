@@ -49,12 +49,10 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
+          
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-          </li>
+            <a class="nav-link js-scroll-trigger" href="http://localhost:8000/Interests.php">Interests</a>
+      
           <li class ="nav-item">
               <a class="nav-link js scroll-trigger" href="https://www.ucc.ie/" >Business</a>
         </ul>
@@ -248,15 +246,7 @@ Providing customers with information on pricing and product availability.
         </div>
       </section>
 
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
-        <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from spending my time in college,I enjoy playing soccer with the UCC Soccer team.I play Right Back for the team as we participate in the local Aul Cork league.We are currently in a mid table postion besides our league position we are also in the quarter final of the college cup where we are against DCU.
-          <p class="mb-0">When forced indoors, I enjoy watching movies and going to the cinema with my friends.I have a particular interest in Marvel Movies.My personal favourite movie from this franchise is Infinity War.</p>
-        </div>
-      </section>
+   
 
       <hr class="m-0">
 
@@ -269,12 +259,17 @@ Providing customers with information on pricing and product availability.
               Gramadach na NGaeilge 2015</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Club Schoolboy of the year 2016 StMarys afc</li>
+              Club Schoolboy of the year 2016 St.Marys AFC</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               
-              Players' Player of the Year 2014 StMarys afc</li>
-           
+              Players' Player of the Year 2014 St.Marys AFC</li>
+             <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Corkschoolboys League Winner St.Marys AFC</li>
+               <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              First Aid course</li>
           </ul>
         </div>
       </section>
