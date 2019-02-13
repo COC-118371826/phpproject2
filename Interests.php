@@ -23,7 +23,7 @@
       height: 100%;
     }
     body {
-      background: #F1f1f2;
+      background: black;
       padding: 0;
       text-align: center;
       font-family: 'open sans';
@@ -51,7 +51,7 @@
     }
     h1 {
       margin-top: 100px;
-      color: #999;
+      color: white;
       margin-bottom: 5px;
       font-size: 70px;
       font-weight: 100;
@@ -62,7 +62,7 @@
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       letter-spacing: 0px;
-      color: #888;
+      color: white;
       font-size: 20px;
       line-height: 160%;
       font-weight: 100;
@@ -219,7 +219,7 @@
       box-sizing: border-box;
       -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
-      background:#f5f5f5;
+      background:black;
       font-weight: bold;
       font-size: 13px;
       color: #888;
@@ -372,7 +372,7 @@
       </section>
   	  <section class="page2">
         <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/visit-uluru-ayers-rock-96722" target="_blank">Visit Disneyland,Paris<br><small>Completed on 17 Feb 2012</small></a></h1>
+          <h1><a href="http://localhost:8000/Disneyland.html" target="_blank">Visit Disneyland,Paris<br><small>Completed on 17 Feb 2012</small></a></h1>
         </div>
       </section>
   	  <section class="page3">
@@ -382,7 +382,7 @@
       </section>
   	  <section class="page4">
         <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/ride-a-camel-93541" target="_blank">Movies<br><small>Films</small></a></h1>
+          <h1><a href="http://localhost:8000/Avengers.html" target="_blank">Movies<br><small>Films</small></a></h1>
         </div>
       </section>
   	

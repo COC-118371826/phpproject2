@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html> 
+<head>
+
+  
+<style>
+
+body {
+  background-color: #C3C3E5;
+
+  background-image: url("https://www.cartoonbrew.com/wp-content/uploads/2015/07/disneyland_60th.jpg");
+ 
+  padding: 25px;  background-repeat: no-repeat;
+  background-size: 1450px 400px
+
+ 
+}
+ h1 {
+  color: white;
+  text-align: left;
+  background-color:  clear; width:84%
+
+  }
+  h2 {
+  color: purple;
+  text-align: left;
+ 
+  }
+  
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: purple;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+margin-top: 5% 
+}
+
+</style>
+</head>
+<body>
+
+   <title> DisneyLand </title>
+          <div class="page_container">
+          <h1 style ="font-size:60px;color:black;"><a href="" target="_blank"><br><small>DisneyLand</small></a></h1></h2>
+
+
+<div class="topnav">
+  <a href="http://localhost:8000/">Index</a>
+    <a href="http://localhost:8000/Interests.php">Interests</a>
+  <a href="http://localhost:8000/Disneyland.html">Holiday</a>
+  <a href="http://localhost:8000/DisneyLandActivities.html">Activities</a>
+  <a href="http://localhost:8000/DisneyLandGallery.html">Gallery</a>
+</div>
+
+          <h1><u>Gallery</u></h1>
+          
+          
+<div class="w3-content w3-display-container">
+    <img class="mySlides" src="https://media.timeout.com/images/105326136/630/472/image.jpg" >
+  <img class="mySlides" src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2018/08/ksdhfguy4890831-624x351.jpg" >
+  <img class="mySlides" src="https://thebettervacation.com/wp-content/uploads/2017/05/Best-time-to-visit-Disneyland-california-600x400.jpg" >
+  <img class="mySlides" src="https://www.tripsavvy.com/thmb/oB5wSbuDehZFwSt0lRIDTU0UMjA=/4012x2480/filters:no_upscale()/Shanghai-Disneyland-Castle-576c3c423df78cb62c3ef8f6.jpg" >
+  <img class="mySlides" src="https://i.pinimg.com/originals/00/3f/03/003f03ada7cbed0869ba23fc59f56276.jpg" >
+    <img class="mySlides" src="http://static.asiawebdirect.com/m/bangkok/portals/orlando-com/homepage/disney-world/top10-nightlife-disney-world/pagePropertiesImage/nightlife-disney-world.jpg.jpg" >
+  
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+ </body>
+          </html>
+
