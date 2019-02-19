@@ -367,7 +367,7 @@
   	  </div>
   	  <section class="page1">
         <div class="page_container">
-          <h1><a href="http://www.bucketlistly.com/achievements/visit-sydney-australia-95861" target="_blank">Travel to Ehrwald,Austria<br><small>Completed on 17 Jan 2016</small></a></h1>
+          <h1><a href="http://localhost:8000/Austria.html" target="_blank">Travel to Ehrwald,Austria<br><small>Completed on 17 Jan 2016</small></a></h1>
         </div>
       </section>
   	  <section class="page2">
