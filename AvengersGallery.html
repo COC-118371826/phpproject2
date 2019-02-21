@@ -12,7 +12,7 @@ body {
 
  
   background-repeat: no-repeat;
-  background-size: 1450px 1700px
+  background-size: 1450px 1300px
 
  
 }
@@ -97,10 +97,10 @@ body {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-
 img {
   max-width: 100%;
-margin-top: 5% 
+
+
 }
 </style>
 </head>
@@ -121,6 +121,9 @@ margin-top: 5%
  
           <h1 style="font-size:50px;">Gallery</h1>
           <div class="w3-content w3-display-container">
+              <br></br>
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
     <img class="mySlides" src="http://media.gizmodo.co.uk/wp-content/uploads/2018/04/3653334524001_5713056715001_5713053525001-vs.jpg" >
   <img class="mySlides" src="https://blerdlines.files.wordpress.com/2018/02/b4f8e5eee40ce8efa88509e22aac75c5.jpg" >
   <img class="mySlides" src="https://cdn.empireonline.com/jpg/70/0/0/1080/1080/aspectfit/0/0/0/0/0/0/c/articles/5ab121d1c5fe574b330caf48/infinity-war-cover-3.jpg" >
@@ -128,8 +131,7 @@ margin-top: 5%
 
 
   
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
 </div>
           <script>
 var slideIndex = 1;
