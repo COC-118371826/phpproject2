@@ -328,7 +328,7 @@
       background-size: cover;
     }
     .tps-section:nth-child(5n+1) .tps-wrapper {
-      background:  url(https://www.rockdesign.com/cache/upload/card/h/d/1500-1000/crop/black-duplex-business-card-01-17.jpg) center center;
+      background:  url(https://i.pinimg.com/originals/7f/ac/69/7fac69297247defd9a2145b744d32a50.jpg) center center;
       background-size: cover;
     }
     .header {
