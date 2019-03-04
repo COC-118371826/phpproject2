@@ -28,7 +28,7 @@ body {
   h2 {
   color: white;
   text-align: left;
- 
+   text-decoration: underline;
   }
   
   p {
@@ -102,13 +102,29 @@ img {
      height:250px;
 
 }
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 </style>
 </head>
 <body>
     
      <div class="page_container">
-              <a href=""><img border="0" alt="Blackbird" src="https://screenshotscdn.firefoxusercontent.com/images/a777f0c4-f6ed-4889-847b-3e0a3144b961.png" >
+              <a href=""><img border="0" alt="Avengers" src="https://screenshotscdn.firefoxusercontent.com/images/a777f0c4-f6ed-4889-847b-3e0a3144b961.png" width="1200" height="1200">
                   </div>
 <div class="topnav">
    <a href="http://localhost:8000/">Index</a>
@@ -140,15 +156,29 @@ function closeNav() {
 }
 </script>
     
-          <title>Business</title>
-      <h1 style="font-size:50px;">Company-Background</h1>
+          <title>Blockchain</title>
+      <h1 style="font-size:50px;">Blockchain</h1>
+     
                    <div style="background-color:black;color:white;padding:20px;">
-          <p style="font-size:30px;">Blackbird was founded in the year 2008.Blackbird was founded by John Smith and two undergrads named Joe Rogan and Alex Jones.The trio created the business in their college dorm.After an initial slow beginning to the companys growth,a 200% rise of growth occured in 2018 and since then the company has only gone from strength to strength.The company plans to launch oversea plans in the near future. 
+                        <h2 style="font-size:40px;"> History</h2>
+          <p style="font-size:30px;"> The first blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in 2008. Nakamoto improved the design in an important way using a Hashcash-like method to add blocks to the chain without requiring them to be signed by a trusted party.
           </p>
-          <p style="font-size:30px;">
-              Investments in IT can lead to significant business advantages and help organisations to achieve their strategic objectives. However, there are significant costs and risks involved in the development, implementation and maintenance of technology. In addition, increasing technological complexity and a new compliance and regulatory paradigm provide major challenges to every organisation.
-          Here at Blackbird we do our utmost to provide adequate services to our clients and perform to the highest standard we can offer.
-          </p>
-            </div>
+              <h2 style="font-size:40px;"> How it Works</h2>
+                <div class="row">
+  <div class="column">
+    <img src="https://media.g2crowd.com/wp-content/uploads/2018/01/23135723/blocks-2.jpg" alt="Blockchain" style="width:100%">
+  </div>
+<div class="column">
+    <img src="https://media.istockphoto.com/vectors/how-does-a-blockchain-work-vector-id892088380" alt="Blockchain" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="http://www.intheblack.com/~/media/intheblack/allimages/technology/2018/blockchain-infographic.jpg" alt="Blockchain" style="width:100%">
+
+</div>
+                     <h2 style="font-size:40px;"> Description</h2>
+                     <p style="font-size:30px;">Using cryptography to keep exchanges secure, blockchain provides a decentralized database, or “digital ledger”, of transactions that everyone on the network can see. This network is essentially a chain of computers that must all approve an exchange before it can be verified and recorded.
+                     </p>
+  </div>
 </body>
 </html>
