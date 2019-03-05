@@ -25,10 +25,11 @@ $_SESSION['txtTotal'] = $totalValue2;
     <body>
 	<style>
 	body{
-		background-image:  url("https://tbncdn.freelogodesign.org/f36ad545-0e07-4155-8c9f-6f05022e92bd.png?1551356824294");
+		background-image:  url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/14/89565810b84381a.jpg");
 	background-repeat: no-repeat;
-background-size: 1300px 1100px
+background-size: 1000px 1000px
 	}
+        
 	</style>
         <div class="form">
             <form name="Details" method="post" action="ebus3.php">
@@ -62,7 +63,9 @@ background-size: 1300px 1100px
         <center>
               
                 <input type="submit" name="btnContinue" id="btnContinue" onclick="" value="Continue"/>
+<input type="button" value="Previous" onclick="history.back(-1)" />
         </center >
+        
         </div>
         </form>
     </body>

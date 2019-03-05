@@ -28,7 +28,7 @@ body {
   h2 {
   color: white;
   text-align: left;
- 
+ text-decoration: underline;
   }
   
   p {
@@ -102,7 +102,22 @@ img {
      height:250px;
 
 }
+* {
+  box-sizing: border-box;
+}
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 </style>
 </head>
 <body>
@@ -143,8 +158,32 @@ function closeNav() {
           <title>Autonomous Things(Robots)</title>
       <h1 style="font-size:50px;">Autonomous Things(Robots)</h1>
                    <div style="background-color:black;color:white;padding:20px;">
-          <p style="font-size:30px;"> 
+                       <h2>Description</h2>
+          <p style="font-size:30px;">Autonomous Things is an emerging term for the technological developments that are expected to bring computers into the physical environment as autonomous entities without human direction, freely moving and interacting with humans and other objects. 
           </p>
+          <h2>Examples</h2>
+                        <div class="row">
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXm6r9MW660qhFiV18DZoIk8DSH56KO4MHT5_oWd_B0aALLkM" alt="Robot" style="width:100%">
+  </div>
+<div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIpM2nI07rmEovxZEeM70oEMVBsKNhRFXz_3kjs3R10JYk0m9N" alt="Robot" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJwPia5e2CiG6MP17CLKwzfDKkBhtpaHH8t3EoL76kH9VZi0ugQw" alt="Robot" style="width:100%">
+
+</div>
+                               <h2 style="font-size:40px;"> Description</h2>
+                     <p style="font-size:30px;">Using cryptography to keep exchanges secure, blockchain provides a decentralized database, or “digital ledger”, of transactions that everyone on the network can see. This network is essentially a chain of computers that must all approve an exchange before it can be verified and recorded.
+                     </p>
+                     <h2 style="font-size:40px;"> Our Services</h2>
+                     <p style ="font-size:30px">We offer our vast knowledge of the AI world to support and advise our customers to the greatest of our ability.With each purchase of the service each customer 
+                         will receive a dedicated advisor who is experienced and fully qualified.Alongside this an additional team will also be assigned if the customer wishes for external opinions outside of the assigned advisor.
+                         We offer the additional team as here at BLACKBIRD we believe fresh ideas and opinions are essential for business success.
+                         If you have any other queries do not hesitate to contact us.All details are on the contact page.All details are on the contact page.If you wish to make a purchase,prices are available on our <a href="http://localhost:8000/ebus1.php"> E-Business</a> page
+  </div>
             </div>
+      
 </body>
 </html>

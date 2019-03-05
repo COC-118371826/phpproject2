@@ -309,7 +309,7 @@
     }
     
     .tps-section:nth-child(1n+1) .tps-wrapper {
-      background: url(https://res-1.cloudinary.com/holiday-images/image/upload/q_auto:eco,f_auto,w_1600,h_900,c_lfill,q_auto:eco,f_auto/v1380073130/topflight/austria/country_images/austria3.jpg) center center;
+      background: url(https://cdn.inquisitr.com/wp-content/uploads/2018/12/avengers-4-trailer-may-not-reveal-title.jpg) center center;
       background-size: cover;
     }
     
@@ -324,7 +324,7 @@
     }
     
     .tps-section:nth-child(4n+1) .tps-wrapper {
-      background:  url(https://www.workingmother.com/sites/workingmother.com/files/styles/1000_1x_/public/images/2018/05/smg_avengers.jpg?itok=dFsnCtrf&fc=50,50) center center;
+      background:  url(https://res-1.cloudinary.com/holiday-images/image/upload/q_auto:eco,f_auto,w_1600,h_900,c_lfill,q_auto:eco,f_auto/v1380073130/topflight/austria/country_images/austria3.jpg) center center;
       background-size: cover;
     }
     .tps-section:nth-child(5n+1) .tps-wrapper {
@@ -370,7 +370,7 @@
   	  </div>
   	  <section class="page1">
         <div class="page_container">
-          <h1><a href="http://localhost:8000/Austria.html" target="_blank">Travel to Ehrwald,Austria<br><small>Completed on 17 Jan 2016</small></a></h1>
+          <h1><a href="http://localhost:8000/Avengers.html" target="_blank">Movies<br><small>Avengers</small></a></h1>
         </div>
       </section>
   	  <section class="page2">
@@ -385,7 +385,7 @@
       </section>
   	  <section class="page4">
         <div class="page_container">
-          <h1><a href="http://localhost:8000/Avengers.html" target="_blank">Movies<br><small>Films</small></a></h1>
+          <h1><a href="http://localhost:8000/Austria.html" target="_blank">Ehrwarld,Austria<br><small>2016</small></a></h1>
         </div>
       </section>
   	<section class="page5">

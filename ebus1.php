@@ -28,19 +28,19 @@ background-size: 2000px 1000px
 		<center>
                     <table cellspacing="10">
 			<tr>
-                            <td><b>Beverage</b></td>
+                            <td><b>Product</b></td>
 			</tr>
 			<tr>
-                            <td>CocaCola</td>
-                            <td><input type="radio" id="CocaCola" name="rdoGroup" value="1" /></td>
+                            <td>Blockchain</td>
+                            <td><input type="radio" id="Blockchain" name="rdoGroup" value="150.00" /></td>
                         </tr>				
 			<tr>
-                            <td>Sprite</td>
-                            <td><input type="radio" id="Sprite" name="rdoGroup" value="5" /></td>
+                            <td>ImmersiveExperience</td>
+                            <td><input type="radio" id="ImmersiveExperience" name="rdoGroup" value="500.00" /></td>
                         </tr>				
 			<tr>
-                            <td>Fanta</td>
-                            <td><input type="radio" id="Fanta" name="rdoGroup" value="30" /></td>
+                            <td>AutonomousThings</td>
+                            <td><input type="radio" id="AutonomousThings" name="rdoGroup" value="300.00" /></td>
                         </tr>	
                     </table>
                 </center>
@@ -84,26 +84,26 @@ background-size: 2000px 1000px
         function calcSub() {
             //Assigning variables to the values
             var subAmount = parseFloat(document.getElementById('txtSubTot').value);
-            var CocaCola = parseFloat(document.getElementById('CocaCola').value);
-            var Sprite = parseFloat(document.getElementById('Sprite').value);
-            var Fanta = parseFloat(document.getElementById('Fanta').value);
+            var Blockchain = parseFloat(document.getElementById('Blockchain').value);
+            var ImmersiveExperience = parseFloat(document.getElementById('ImmersiveExperience').value);
+            var AutonomousThings = parseFloat(document.getElementById('AutonomousThings').value);
             
 //            If radio buttons are clicked, values are assigned
-            if (document.getElementById('CocaCola').checked) {
-                document.intCalc.txtSubTot.value = CocaCola;
-                subAmount = CocaCola;
+            if (document.getElementById('Blockchain').checked) {
+                document.intCalc.txtSubTot.value = Blockchain;
+                subAmount = Blockchain;
                 calculation(subAmount);
                 
             } 
-		else if (document.getElementById('Sprite').checked) {
-                document.intCalc.txtSubTot.value = Sprite;
-                subAmount = Sprite;
+		else if (document.getElementById('ImmersiveExperience').checked) {
+                document.intCalc.txtSubTot.value = ImmersiveExperience;
+                subAmount = ImmersiveExperience;
                  calculation(subAmount);
                
             } 
-		else if (document.getElementById('Fanta').checked) {
-                document.intCalc.txtSubTot.value = Fanta;
-                subAmount = Fanta;
+		else if (document.getElementById('AutonomousThings').checked) {
+                document.intCalc.txtSubTot.value = AutonomousThings;
+                subAmount = AutonomousThings;
                  calculation(subAmount);
             } 
         }    
