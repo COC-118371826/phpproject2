@@ -6,7 +6,7 @@
                 background-image: url("https://www.onlygfx.com/wp-content/uploads/2018/03/blue-polygonal-background-fade-4.png");
                background-repeat: no-repeat;
                  background-size: 1450px 1300px;
-             
+             margin: 0;
             }
             h1{
                   color: black;
@@ -61,19 +61,39 @@
   <div style="background-color:#483D8B;color:white;padding:20px;">
                        <h2>Summary</h2>
          
-          
+                       <h4>Company Name:Blackbird</h4>
 <?php
 session_start();
 $totalValue2 = $_POST['txtTotal'];
 $fullNameValue = $_POST['txtName'];
+$Address = $_POST['txtAddress'];
+$PhoneNumber=$_POST['txtPhoneNumber'];
 
 echo "Customers Name: ".$fullNameValue.".";
 echo "<br></br>";
-echo "Total Value of Products sold : ".$totalValue2.".";
+echo "Address: ".$Address.".";
+echo "<br></br>";
+echo "Phone Number: ".$PhoneNumber.".";
+echo "<br></br>";
+echo "Total Value of Products sold : €".$totalValue2.".";
+
 ?>
+                       <p>Receipt Number:</p>
+                       <p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+Math.floor(Math.random() * 100) + 1;
+</script>
+
+<p>Date/Time: <span id="datetime"></span></p>
+
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+</script>                  
   </div>
 <br></br>
-
 
 </body>
 <html>

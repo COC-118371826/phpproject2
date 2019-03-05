@@ -2,12 +2,16 @@
 session_start();
 $fullNameValue = "";
 $totalValue2 = "";
+$Address= "";
+$PhoneNumber= "";
 /* 
  * Create a session variable for the mobile number
  */
 $totalValue = $_POST['txtTotal'];
 $_SESSION['txtName'] = $fullNameValue;
 $_SESSION['txtTotal'] = $totalValue2;
+$_SESSION['txtAddress'] = $Address;
+$_SESSION['txtPhoneNumber'] = $PhoneNumber;
 
 
 
@@ -25,11 +29,17 @@ $_SESSION['txtTotal'] = $totalValue2;
     <body>
 	<style>
 	body{
-		background-image:  url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/14/14/89565810b84381a.jpg");
+		background-image:  url("https://www.setaswall.com/wp-content/uploads/2018/02/Green-Background-18-3500x2500.jpg");
 	background-repeat: no-repeat;
-background-size: 1000px 1000px
+background-size: 1500px 1000px;
+ margin: 0;
 	}
-        
+        h1{
+                       color: black;
+             text-align: center;
+               width:84%;
+      text-decoration:underline;
+        }
 	</style>
         <div class="form">
             <form name="Details" method="post" action="ebus3.php">
@@ -46,9 +56,12 @@ background-size: 1000px 1000px
                         </tr>
                         <tr>
                             <td>Phone number</td>
-                            <td><input type="text" id="txtNum" name="txtNum" value="" /></td>
+                            <td><input type="text" id="txtNum" name="txtPhoneNumber" value="" /></td>
                         </tr>
-
+ <tr>
+                            <td>Address</td>
+                            <td><input type="text" id="txtAddress" name="txtAddress" value="" /></td>
+                        </tr>
                         <tr>
                             <td>Password</td>
                             <td><input type="text" id="txtPassword" name="txtPassword" value=""  /></td>

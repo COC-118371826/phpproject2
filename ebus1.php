@@ -28,7 +28,7 @@ background-size: 2000px 1000px
 		<center>
                     <table cellspacing="10">
 			<tr>
-                            <td><b>Product</b></td>
+                            <td><b>Select Product from following:</b></td>
 			</tr>
 			<tr>
                             <td>Blockchain</td>
