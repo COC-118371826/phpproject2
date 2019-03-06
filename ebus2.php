@@ -64,7 +64,7 @@ background-size: 1500px 1000px;
                         </tr>
                         <tr>
                             <td>Password</td>
-                            <td><input type="text" id="txtPassword" name="txtPassword" value=""  /></td>
+                            <td><input type="password" id="txtPassword" name="txtPassword" value=""  /></td>
                         </tr>
                         <tr>
     

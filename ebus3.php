@@ -11,57 +11,39 @@
             h1{
                   color: black;
              text-align: center;
-               width:84%;
+         
       text-decoration:underline;
             }
              h2 {
   color: black;
-  text-align: left;
+  text-align: center;
  text-decoration: underline;
              }
-              
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color:  	black;
-}
 
-/* Style the topnav links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 18px 20px;
-  text-decoration: none;
-   font-size:28px;
+.receipt{
+    font-size:20px;
+ 
+  text-align:center;
 }
-
-/* Change color on hover */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+h4 {
+    text-align:center;
+    font-size:20px;
+}
+p {
+      text-align:center;
+    font-size:20px;
 }
         </style>
     </head>
 <body>
     
     <h1>Invoice</h1>
-    <div class="topnav">
-   <a href="/"></a>
-    <a href=""></a>
-  <a href=""></a>
-    <a href=""> </a>
-  <a href=""></a>
- 
- 
-</div>
-  
 <!-- //Starting the session to get the session variable from last page-->
-  <div style="background-color:#483D8B;color:white;padding:20px;">
+<div style="background-color:#483D8B;color:white;padding:20px;"></div>
                        <h2>Summary</h2>
-         
+                       <h2>Thank you for your purchase</h2>
                        <h4>Company Name:Blackbird</h4>
+                       <div class="receipt">
 <?php
 session_start();
 $totalValue2 = $_POST['txtTotal'];
@@ -78,6 +60,7 @@ echo "<br></br>";
 echo "Total Value of Products sold : €".$totalValue2.".";
 
 ?>
+  </div>
                        <p>Receipt Number:</p>
                        <p id="demo"></p>
 
@@ -86,7 +69,9 @@ document.getElementById("demo").innerHTML =
 Math.floor(Math.random() * 100) + 1;
 </script>
 
-<p>Date/Time: <span id="datetime"></span></p>
+<p>Date: <span id="datetime"></span></p>
+
+
 
 <script>
 var dt = new Date();

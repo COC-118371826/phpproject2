@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html> 
+    
 <head>
 
   
@@ -7,10 +8,7 @@
 
 body {
   background-color:  	#d22d2d;
-
   background-image: url("https://i.annihil.us/u/prod/marvel/movies/infinitywar/images/bg.jpg");
-
- 
   background-repeat: no-repeat;
   background-size: 1450px 1300px;
    margin: 0;
@@ -62,14 +60,23 @@ body {
 img {
   max-width: 100%;
 }
+.mySlides {display:none;
+           max-width: 500px;
+           max-height:500px;
+}
+
+
+
 </style>
+        <title>Avengers</title>
 </head>
 <body>
 
-          <title>Avengers</title>
+  
           <div class="page_container">
-              <a href="https://twitter.com/Avengers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img border="0" alt="Avengers" src="https://imgc.allpostersimages.com/img/print/u-g-Q1BMV210.jpg?w=550&h=550&p=0" width="200" height="200">
-
+              <a href="https://twitter.com/Avengers?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img border="0" alt="Avengers" src="https://imgc.allpostersimages.com/img/print/u-g-Q1BMV210.jpg?w=550&h=550&p=0" width="200" height="200"></a>
+              
+                          
 
 <div class="topnav">
   <a href="http://localhost:8000/">Index</a>
@@ -77,22 +84,17 @@ img {
   <a href="http://localhost:8000/Avengers.html">Avengers:Series</a>
   <a href="http://localhost:8000/AvengersGallery.html">Gallery</a>
   <a href="http://localhost:8000/AvengersActors.html">Actors</a>
-</div>
-                  <br></br>
-     
-                  
-                  
-                  
+</div>           
+              <br>
           <h1 style="font-size:50px;">Gallery</h1>
           
-          <div class="w3-content w3-display-container">
-              <br></br>
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    <img class="mySlides" src="http://media.gizmodo.co.uk/wp-content/uploads/2018/04/3653334524001_5713056715001_5713053525001-vs.jpg" >
-  <img class="mySlides" src="https://blerdlines.files.wordpress.com/2018/02/b4f8e5eee40ce8efa88509e22aac75c5.jpg" >
-  <img class="mySlides" src="https://cdn.empireonline.com/jpg/70/0/0/1080/1080/aspectfit/0/0/0/0/0/0/c/articles/5ab121d1c5fe574b330caf48/infinity-war-cover-3.jpg" >
-  <img class="mySlides" src="https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2018/09/avengers-infinity-war-poster-thanos.jpg?itok=Qg6pEPrd" >
+          <br>
+                <button onclick="plusDivs(-1)">&#10094;</button>
+  <button onclick="plusDivs(1)">&#10095;</button>
+    <img class="mySlides" src="http://media.gizmodo.co.uk/wp-content/uploads/2018/04/3653334524001_5713056715001_5713053525001-vs.jpg" alt="Tony" >
+  <img class="mySlides" src="https://blerdlines.files.wordpress.com/2018/02/b4f8e5eee40ce8efa88509e22aac75c5.jpg" alt="squad " >
+  <img class="mySlides" src="https://cdn.empireonline.com/jpg/70/0/0/1080/1080/aspectfit/0/0/0/0/0/0/c/articles/5ab121d1c5fe574b330caf48/infinity-war-cover-3.jpg" alt="Black Panther" >
+  <img class="mySlides" src="https://cdn2us.denofgeek.com/sites/denofgeekus/files/styles/main_wide/public/2018/09/avengers-infinity-war-poster-thanos.jpg?itok=Qg6pEPrd" alt="Thanos" >
 
 
   
@@ -109,8 +111,8 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  if (n > x.length) {slideIndex = 1;}
+  if (n < 1) {slideIndex = x.length;}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }

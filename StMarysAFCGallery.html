@@ -59,12 +59,17 @@ img {
 margin-top: 5%
   
 }
+.mySlides {display:none;
+           max-width: 500px;
+           max-height:500px;
+}
 
 </style>
+  <title>StMarysAFC</title>
 </head>
 <body>
 
-    <title>StMarysAFC</title>
+  
     
           <div class="page_container">
               
@@ -82,16 +87,15 @@ margin-top: 5%
           <h1 style="font-size:70px;"><u>Gallery</u></h1>
           
           
-<div class="w3-content w3-display-container">
-    <br></br>
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    <img class="mySlides" src="https://pbs.twimg.com/media/DKa2gKnXoAADTkK.jpg" >
-  <img class="mySlides" src="http://sportlomo-userupload.s3.amazonaws.com/user_data/modules/galleries/11031/image_kq1adMgG7BPlWfdWYbWwUenM9qnerYQB.jpeg" >
-  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzlvsgaxHlyq0lNwJvVa5XmeyGUiaFdU4lepPFYSb6EW24eb9h" >
-  <img class="mySlides" src="https://scontent-lga3-1.cdninstagram.com/vp/e0d2b558eab44473b57a4aa7cc11f189/5CCF06BF/t51.2885-15/sh0.08/e35/s750x750/37508000_2140384646034948_5026571900646588416_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&ig_cache_key=MTg1ODk5ODgxNjYzODA5NDc0OQ%3D%3D.2" >
-  <img class="mySlides" src="http://sportlomo-userupload.s3.amazonaws.com/user_data/modules/galleries/11031/image_FYgQ0LtEbe45iYA7kYARETvK2pjRv82d.jpeg" >
-    <img class="mySlides" src="https://pbs.twimg.com/media/Dw9efkKU0AADKtw.jpg" >
+
+      <button  onclick="plusDivs(-1)">&#10094;</button>
+  <button  onclick="plusDivs(1)">&#10095;</button>
+    <img class="mySlides" src="https://pbs.twimg.com/media/DKa2gKnXoAADTkK.jpg" alt='team' >
+  <img class="mySlides" src="http://sportlomo-userupload.s3.amazonaws.com/user_data/modules/galleries/11031/image_kq1adMgG7BPlWfdWYbWwUenM9qnerYQB.jpeg" alt ="ucc">
+  <img class="mySlides" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzlvsgaxHlyq0lNwJvVa5XmeyGUiaFdU4lepPFYSb6EW24eb9h" alt="city" >
+  <img class="mySlides" src="https://scontent-lga3-1.cdninstagram.com/vp/e0d2b558eab44473b57a4aa7cc11f189/5CCF06BF/t51.2885-15/sh0.08/e35/s750x750/37508000_2140384646034948_5026571900646588416_n.jpg?_nc_ht=scontent-lga3-1.cdninstagram.com&ig_cache_key=MTg1ODk5ODgxNjYzODA5NDc0OQ%3D%3D.2" alt="goal" >
+  <img class="mySlides" src="http://sportlomo-userupload.s3.amazonaws.com/user_data/modules/galleries/11031/image_FYgQ0LtEbe45iYA7kYARETvK2pjRv82d.jpeg" alt="cross" >
+    <img class="mySlides" src="https://pbs.twimg.com/media/Dw9efkKU0AADKtw.jpg" alt="Final" >
   
 
 </div>
@@ -106,8 +110,8 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  if (n > x.length) {slideIndex = 1;}
+  if (n < 1) {slideIndex = x.length;}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }

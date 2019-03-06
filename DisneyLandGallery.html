@@ -19,7 +19,7 @@ body {
  h1 {
   color: white;
   text-align: left;
-  background-color:  clear; width:84%
+ width:84%
 
   }
   h2 {
@@ -52,17 +52,24 @@ body {
   color: black;
 }
 
-img {
+img{
   max-width: 100%;
      height:550px;
 margin-top: 5% 
 }
+.mySlides {display:none;
+           max-width: 500px;
+           max-height:500px;
+}
 
 </style>
+<title>DisneyLand</title>
+
 </head>
+
 <body>
 
-   <title>DisneyLand</title>
+   
           <div class="page_container">
           <h1 style ="font-size:60px;color:purple;"><a href="https://www.disneylandparis.com/en-us/" style="color:purple;" target="_blank"><br><small>DisneyLand</small></a></h1>
 
@@ -78,16 +85,16 @@ margin-top: 5%
          <h1 style="font-size:50px;">Gallery</h1>
           <h2 style="font-size:40px;"><u>Disneyland Photos</u></h2>
           
-<div class="w3-content w3-display-container">
-    <br></br>
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-    <img class="mySlides" src="https://media.timeout.com/images/105326136/630/472/image.jpg" >
-  <img class="mySlides" src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2018/08/ksdhfguy4890831-624x351.jpg" >
-  <img class="mySlides" src="https://thebettervacation.com/wp-content/uploads/2017/05/Best-time-to-visit-Disneyland-california-600x400.jpg" >
-  <img class="mySlides" src="https://www.tripsavvy.com/thmb/oB5wSbuDehZFwSt0lRIDTU0UMjA=/4012x2480/filters:no_upscale()/Shanghai-Disneyland-Castle-576c3c423df78cb62c3ef8f6.jpg" >
-  <img class="mySlides" src="https://i.pinimg.com/originals/00/3f/03/003f03ada7cbed0869ba23fc59f56276.jpg" >
-    <img class="mySlides" src="http://static.asiawebdirect.com/m/bangkok/portals/orlando-com/homepage/disney-world/top10-nightlife-disney-world/pagePropertiesImage/nightlife-disney-world.jpg.jpg" >
+
+    
+      <button  onclick="plusDivs(-1)">&#10094;</button>
+      <button onclick="plusDivs(1)">&#10095;</button>
+    <img class="mySlides" src="https://media.timeout.com/images/105326136/630/472/image.jpg" alt='Mickey' >
+  <img class="mySlides" src="https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2018/08/ksdhfguy4890831-624x351.jpg" alt='parade' >
+  <img class="mySlides" src="https://thebettervacation.com/wp-content/uploads/2017/05/Best-time-to-visit-Disneyland-california-600x400.jpg" alt='Ride' >
+  <img class="mySlides" src="https://www.tripsavvy.com/thmb/oB5wSbuDehZFwSt0lRIDTU0UMjA=/4012x2480/filters:no_upscale()/Shanghai-Disneyland-Castle-576c3c423df78cb62c3ef8f6.jpg" alt='castle' >
+  <img class="mySlides" src="https://i.pinimg.com/originals/00/3f/03/003f03ada7cbed0869ba23fc59f56276.jpg" alt='castle' >
+    <img class="mySlides" src="http://static.asiawebdirect.com/m/bangkok/portals/orlando-com/homepage/disney-world/top10-nightlife-disney-world/pagePropertiesImage/nightlife-disney-world.jpg.jpg" alt='castle' >
   
 
 </div>
@@ -102,8 +109,8 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
+  if (n > x.length) {slideIndex = 1;}
+  if (n < 1) {slideIndex = x.length;}
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
