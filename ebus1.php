@@ -75,7 +75,7 @@ background-size: 2000px 1000px
 		<center>
                     <input type="button" name="btnCalc" id="btnCalc" onclick="calcSub()" value="Calculate Amount"/>
                     <input type="button" name="btnClear" id="btnClear" onclick="AmountClear()" value="Clear"/>
-                    <input type="submit" name="btnProceed" id="btnProceed" onclick="" value="Proceed"/>
+                    <input type="submit" name="btnProceed" id="btnProceed" onclick="" value="Add to Shopping Cart"/>
 		</center>
 	</form>
 </div>
