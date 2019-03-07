@@ -71,9 +71,7 @@
           <div class="subheading mb-5">** Churchfield Cork, 085 *** ****
             <a href="mailto:name@email.com">Cillian**@hotmail.com</a>
             <br>
-             <a href="https://phhproject2.herokuapp.com/">Heruko Link-https://phhproject2.herokuapp.com/</a>
-             <br>
-             <a href="https://github.com/COC-118371826/phpproject2">GitHub</a>
+      
           </div>
           <p class="lead mb-5">A young, determined and hard working person. I believe in task based roles and complete ownership of work.</p>
           <div class="social-icons">
