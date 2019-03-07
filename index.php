@@ -47,7 +47,7 @@
   <a href="http://localhost:8000/CV.php">CV</a>
   <a href="http://localhost:8000/Interests.php">Interests</a>
   <a href="http://localhost:8000/Business.html">Business</a>
- 
+  
 </div>      
   </body>
 </html>
