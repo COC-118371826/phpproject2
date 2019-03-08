@@ -44,9 +44,9 @@
              <a href="https://github.com/COC-118371826/phpproject2">GitHub</a>
                   
 <div class="topnav">
-  <a href="http://localhost:8000/CV.php">CV</a>
-  <a href="http://localhost:8000/Interests.php">Interests</a>
-  <a href="http://localhost:8000/Business.html">Business</a>
+  <a href="CV.php">CV</a>
+  <a href="Interests.php">Interests</a>
+  <a href="Business.html">Business</a>
   
 </div>      
   </body>
