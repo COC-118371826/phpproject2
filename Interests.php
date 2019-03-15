@@ -370,31 +370,31 @@
   	  </div>
   	  <section class="page1">
         <div class="page_container">
-          <h1><a href="http://localhost:8000/Avengers.html" target="_blank">Movies<br><small>Avengers</small></a></h1>
+          <h1><a href="Avengers.html" target="_blank">Movies<br><small>Avengers</small></a></h1>
         </div>
       </section>
   	  <section class="page2">
         <div class="page_container">
-          <h1><a href="http://localhost:8000/Disneyland.html" target="_blank">Visit Disneyland,Paris<br><small>Completed on 17 Feb 2012</small></a></h1>
+          <h1><a href="Disneyland.html" target="_blank">Visit Disneyland,Paris<br><small>Completed on 17 Feb 2012</small></a></h1>
         </div>
       </section>
   	  <section class="page3">
         <div class="page_container">
-          <h1><a href="http://localhost:8000/StMarysAFC.html" target="_blank">Soccer<br><small>St.Marys AFC</small></a></h1>
+          <h1><a href="StMarysAFC.html" target="_blank">Soccer<br><small>St.Marys AFC</small></a></h1>
         </div>
       </section>
   	  <section class="page4">
         <div class="page_container">
-          <h1><a href="http://localhost:8000/Austria.html" target="_blank">Ehrwarld,Austria<br><small>2016</small></a></h1>
+          <h1><a href="Austria.html" target="_blank">Ehrwarld,Austria<br><small>2016</small></a></h1>
         </div>
       </section>
   	<section class="page5">
             <div class="page_container">
-                <h1><a href="http://localhost:8000/Business.html" target="_blank">Consulting Services<br><small>Business</small></a></h1>
+                <h1><a href="Business.html" target="_blank">Consulting Services<br><small>Business</small></a></h1>
             </div>
       </section>
     </div>
-    <a class="back" href="http://localhost:8000/index.php">Back to Index</a>
+    <a class="back" href="https://phhproject2.herokuapp.com/">Back to Index</a>
     <a href="https://github.com/peachananr/tiltedpage-scroll"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
   </div>
   

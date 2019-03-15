@@ -51,10 +51,10 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="http://localhost:8000/Interests.php">Interests</a>
+            <a class="nav-link js-scroll-trigger" href="Interests.php">Interests</a>
       
           <li class ="nav-item">
-              <a class="nav-link js scroll-trigger" href="http://localhost:8000/Business.html" >Business</a>
+              <a class="nav-link js scroll-trigger" href="Business.html" >Business</a>
         </ul>
       </div>
     </nav>
